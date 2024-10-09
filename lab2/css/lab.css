@@ -4,12 +4,12 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 5px #888;
-    background-color: #3b63e6;
+    border: solid 5px #395c32;
+    background-color: #9ed8c7;
   }
 
 #Intro{
-  background-color: rgb(134, 151, 206);
+  background-color: rgb(151, 49, 95);
   width: 150px;
   min-height: 150px;
   padding: 100px;
@@ -19,5 +19,13 @@
 }
 
 #Intro h1{
-  color: rgb(37, 25, 50);
+  color: rgb(229, 109, 161);
+  font-family: cursive;
 }
+
+
+#Intro p{
+  font-family: fantasy;
+  font-size: 25px;
+  font-style: oblique;
+} 
