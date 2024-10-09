@@ -4,6 +4,20 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 5px #888;
+    background-color: #3b63e6;
   }
+
+#Intro{
+  background-color: rgb(134, 151, 206);
+  width: 150px;
+  min-height: 150px;
+  padding: 100px;
+  margin: 10px;
+  border: solid 7px #000000;
+  font-size: 20px;
+}
+
+#Intro h1{
+  color: rgb(37, 25, 50);
+}
