@@ -5,9 +5,12 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 5px #395c32;
-    background-color: #9ed8c7;
+    background-color: #d89ed4;
   }
 
+#contbodyent{
+  background-color:rgb(109, 147, 229)
+}
 #Intro{
   background-color: rgb(151, 49, 95);
   width: 150px;
@@ -28,4 +31,13 @@
   font-family: fantasy;
   font-size: 25px;
   font-style: oblique;
+  position: relative;
+  left: 10px;
 } 
+
+#Intro img{
+  width: 200px;
+  position: relative;
+  top: 10px;
+  right: 20px;
+}
