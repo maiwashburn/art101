@@ -35,9 +35,10 @@
   left: 10px;
 } 
 
-#Intro img{
-  width: 200px;
-  position: relative;
-  top: 10px;
+img{
+  width: 350px;
+  position:relative;
+  top: 60px;
   right: 20px;
+  float: right;
 }

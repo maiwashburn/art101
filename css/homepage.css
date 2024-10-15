@@ -7,3 +7,24 @@
 nav#links{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+body {
+  background-image:url'flowers1.jpg';
+  background-size: cover;
+}
+
+img{
+  float: right;
+  margin: right 100px;
+  height: 400px;
+}
+
+#content p{
+  font-family:monospace;
+  font-size: 20px;
+}
+
+#content .minor-section p{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+}
