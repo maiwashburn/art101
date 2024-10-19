@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 5
+// Author: Maia Washburn
+// Date: October 19, 2024
 
 // Constants
 
@@ -19,3 +19,19 @@ function main() {
 
 // let's get this party started
 main();
+
+// Define Variable
+make = "Toyota";
+model = "4Runner";
+color = "White";
+year = "1996";
+
+//calculate
+age = 2024 - year;
+
+//output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + "years<br>");
