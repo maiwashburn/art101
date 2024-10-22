@@ -7,3 +7,15 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  #content p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #content script {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .minor-section {
+    background-color:rgb(234, 164, 169);
+  }
