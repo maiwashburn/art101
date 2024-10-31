@@ -25,3 +25,9 @@ var result = array.map(function(x, y) {
 })
 
 console.log("Multiplied by 5 of array:", result);
+
+//map results data
+var mapResults = "Your map results here";
+
+//use jquery to select the elements by its ID and set the HTMl content
+$("#output").html(mapResults);
