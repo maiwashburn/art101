@@ -1,0 +1,41 @@
+
+#challenge{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #d17ba7;
+    position: relative;
+    overflow:hidden;
+  }
+  
+  #problem{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #d17ba7;
+    position: relative;
+    overflow:hidden;
+  }
+
+  #reflection{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #d17ba7;
+    position: relative;
+    overflow:hidden;
+  }
+
+#results{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #d17ba7;
+    position: relative;
+    overflow:hidden;
+  }
+
+.special{
+    background-color: rgb(94, 198, 191);
+    border-color: azure;
+}
