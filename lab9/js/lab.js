@@ -26,33 +26,36 @@ $("#problem").append("<button id='button-problem'>Change it up?</button>");
 $(document).ready(function(){
     $("#problem").click(function(){
         $("#problem").css({
-            'background-color': 'pink'
+            'background-color': 'white',
+            'color': 'gray'
         });
     });
     });
 
 
 //add button to reflection section 
-$("#reflection").append("<button id='button-reflection'>Change it up?</button>");
+$("#reflection").append("<button id='button-reflection'>Make me blue?</button>");
 //add click listener to reflection section 
 
 $(document).ready(function(){
     $("#reflection").click(function(){
         $("#reflection").css({
-            'background-color': 'pink'
+            'background-color': 'teal'
         });
     });
     });
 
 
 
- $("#results").append("<button id='button-results'>Change it up?</button>");
+ $("#results").append("<button id='button-results'>How about something different?</button>");
     //add click listener to reflection section 
     
     $(document).ready(function(){
         $("#results").click(function(){
             $("#results").css({
-                'background-color': 'pink'
+                'background-color': 'purple',
+                'color': 'lavender',
+                'border': 'dotted 20px orange'
             });
         });
         });
