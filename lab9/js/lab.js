@@ -10,6 +10,7 @@
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
 
 //add a click listener to the challenge button
+
 $(document).ready(function(){
 $("#challenge").click(function(){
     $("#challenge").css({
@@ -17,6 +18,7 @@ $("#challenge").click(function(){
     });
 });
 });
+
 
 
 //add button to problem section
