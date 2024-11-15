@@ -1,0 +1,38 @@
+body {
+    background-color: #ae8b82;
+  }
+  
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #888;
+  background-color: #c05f41;
+}
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888888;
+    background-color: #d77c2c;
+    position: relative;
+    overflow:hidden;
+  }
+
+h2 {
+    font-family: fantasy;
+}
+
+#output{
+    font-size: 50px;
+    font-weight: bold;
+    color: pink;
+    font-family:cursive;
+}
+
+#button {
+    background-color: #8b2117;
+    padding: 10px;
+    color:#ec8a60;
+    font-size: x-large;
+    border-radius: 10px;
+}
