@@ -28,3 +28,31 @@ myButton.addEventListener("click", function() {
     newText = "<p>The Sorting Hat has sorted you into " + house + "</p>";
     document.getElementById("output").innerHTML = newText;
 })
+
+
+function fizzBuzzBoom(maxNums, factorObj) {
+    for (var num=0; num<maxNums; num++) {
+        var outputStr = "Fizz";
+        for (var factor in factorObj) {
+            if (num % factor == 0) {
+                outputStr += factorObj[factor];
+            }
+        }
+        if (outputStr) {
+            outputStr = " - " + outputStr + "!";
+        }
+        outputToPage(num.toString() + outputStr)
+    }
+  }
+
+  function reportError(str) {
+    outputEl.innerHTML = "<div class='error'>" + str + "</div>";
+  }
+
+  document.getElementById("submit").addEventListener("click", function() {
+    var max = document.getElementById("max").value;
+    console.log("max:", max)
+    if (! max) {
+        reportError("You must provide a maximum");
+    }
+  })
