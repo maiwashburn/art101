@@ -2,9 +2,10 @@
 //Date: 18 October 2024
 //lab 13
 
-function fizzBuzzBoom(nums, objs) {
+function fizzBuzzBoom() {
   var answer =''
-  for (var i=0; i<=200; i++) {
+  var max = parseInt(document.getElementById('max').value, 10);
+  for (var i=0; i<=max; i++) {
     if (i%15==0 && i%21==0){
       console.log("FizzBuzzBoom!");
     }
@@ -27,9 +28,13 @@ function fizzBuzzBoom(nums, objs) {
       $("#output").append('<div class="text"><p>' + "Boom!" + '</p></div>');
     }
     else{
-      $("#output").append('<div calss"text"><p>' + i + '</p></div>');
+      $("#output").append('<div class"text"><p>' + i + '</p></div>');
       console.log("FizzBuzzBoom!");
     }
     
   }
 }
+
+$("#submit").click(function(){
+  fizzBuzzBoom();
+})
