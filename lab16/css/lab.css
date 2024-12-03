@@ -1,0 +1,25 @@
+body {
+    background-color: #82ae90;
+  }
+  
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #888;
+  background-color: #c299b3;
+}
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #d17ba7;
+    position: relative;
+    overflow:hidden;
+  }
+
+.text{
+    font-size: 50px;
+    font-weight: bold;
+    color: pink;
+}
